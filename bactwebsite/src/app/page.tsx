@@ -1,6 +1,5 @@
 import HeroSection from "@/components/home/HeroSection";
 import ModernizationSection from "@/components/home/ModernizationSection";
-import ImpactSection from "@/components/home/ImpactSection";
 import ValuesSection from "@/components/home/ValuesSection";
 
 export default function Home() {
@@ -8,8 +7,7 @@ export default function Home() {
     <>
       <HeroSection />
       <ModernizationSection />
-      {/* <ImpactSection />
-      <ValuesSection /> */}
+      <ValuesSection />
     </>
   );
 }
