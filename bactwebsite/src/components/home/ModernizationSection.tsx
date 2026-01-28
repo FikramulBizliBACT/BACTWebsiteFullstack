@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import ShinyText from '../ui/ShinyText';
 
 export default function ModernizationSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -36,6 +37,7 @@ export default function ModernizationSection() {
             <h2 className="text-[#F15A29] font-bold leading-[1.2] mb-6 md:mb-8 max-w-[400px] sm:max-w-[400px] text-[16px] sm:text-[16px] md:text-[28px] lg:text-[38px] xl:text-[42px] text-left">
               Modernizing Batu Ampar Container terminal
             </h2>
+            
             <p className="text-black leading-[1.8] mb-4 md:mb-6 max-w-[350px] sm:max-w-[400px] text-justify text-[12px] sm:text-[13px] md:text-[15px] lg:max-w-[520px]">
               In line with BP Batam's national vision and the appointment of PT Batam Terminal Petikemas (BTP) as the sole container terminal operator, Batu Ampar Port will begin implementing enhanced operational processes and procedures effective 15 December 2025.
             </p>
@@ -62,8 +64,19 @@ export default function ModernizationSection() {
                   className="w-[140vw] h-[80px] sm:h-[80px] md:h-[100px] bg-[#F15A29] rotate-[-15deg] mx-auto flex items-center justify-center "
                   style={{ marginLeft: '-5vw', marginRight: '-20vw',marginTop: '-30vw' , background: 'linear-gradient(90deg, #F15A29 40%, #FA9679 100%)',}}
                 >
-                  <span className="text-white text-[12px] sm:text-[20px] md:text-[20px] font-extrabold whitespace-nowrap tracking-[0.1em] leading-none mx-auto" style={{ letterSpacing: '0.04em' }}>
-                    MOVING FORWARD AS ONE
+                  <span className="text-white text-[12px] sm:text-[20px] md:text-[25px] font-extrabold whitespace-nowrap tracking-[0.1em] leading-none mx-auto" style={{ letterSpacing: '0.04em' }}>
+                    <ShinyText
+                      text="MOVING FORWARD AS ONE"
+                      speed={5}
+                      delay={0}
+                      color="#fff"
+                      shineColor="#F15A29"
+                      spread={120}
+                      direction="left"
+                      yoyo={false}
+                      pauseOnHover={false}
+                      disabled={false}
+                    />
                   </span>
                 </div>
               </div>
@@ -159,7 +172,18 @@ export default function ModernizationSection() {
             {/* "MOVING FORWARD AS ONE" Text */}
             <div className="absolute" style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
               <p className="text-white text-[40px] lg:text-[48px] xl:text-[56px] font-extrabold whitespace-nowrap tracking-[0.1em] leading-none">
-                MOVING FORWARD AS ONE
+                <ShinyText
+                  text="MOVING FORWARD AS ONE"
+                  speed={5}
+                  delay={0}
+                  color="#fff"
+                  shineColor="#F15A29"
+                  spread={120}
+                  direction="left"
+                  yoyo={false}
+                  pauseOnHover={false}
+                  disabled={false}
+                />
               </p>
             </div>
           </div>
