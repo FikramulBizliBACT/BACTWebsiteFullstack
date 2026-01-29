@@ -68,10 +68,10 @@ export const footerContent = {
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
   links: [
     { label: 'Home', href: '/' },
-    { label: 'About Us', href: '/about' },
-    { label: 'Our Offering', href: '/offering' },
-    { label: 'News', href: '/news' },
-    { label: 'Contact', href: '/contact' },
+    { label: 'About Us', href: '/coming-soon' },
+    { label: 'Our Offering', href: '/coming-soon' },
+    { label: 'News', href: '/coming-soon' },
+    { label: 'Contact', href: '/coming-soon' },
   ],
 };
 
