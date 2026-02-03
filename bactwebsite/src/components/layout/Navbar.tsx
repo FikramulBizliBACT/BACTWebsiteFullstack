@@ -35,7 +35,7 @@ export default function Navbar() {
               return (
                 <Link
                   key={item.label}
-                  href={isAvailable ? item.href : '/coming-soon'}
+                  href={item.href}
                   className={`text-[16px] xl:text-[20px] font-semibold transition-colors whitespace-nowrap ${
                     isActive
                       ? 'text-[#DB4511] hover:text-[#F15A29]'
@@ -103,7 +103,7 @@ export default function Navbar() {
                 return (
                   <Link
                     key={item.label}
-                    href={isAvailable ? item.href : '/coming-soon'}
+                    href={item.href}
                     className={`py-4 text-[22px] font-extrabold w-full text-center tracking-wide transition-colors duration-300 ${
                       isActive
                         ? 'text-[#DB4511]'
