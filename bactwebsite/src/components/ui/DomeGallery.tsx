@@ -60,7 +60,7 @@ const DEFAULT_IMAGES: ImageItem[] = [
     alt: 'Image BACT'
   },
   {
-    src: Images.gallery7,
+    src: Images.gallery0,
     alt: 'Image BACT'
   },
   {

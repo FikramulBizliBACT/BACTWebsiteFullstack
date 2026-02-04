@@ -1,5 +1,6 @@
 // Image exports for easy importing
 export const Images = {
+  gallery0: '/images/0.jpg',
   gallery1: '/images/1.jpg',
   gallery2: '/images/2.jpg',
   gallery3: '/images/3.jpg',
@@ -18,7 +19,7 @@ export const Images = {
 export const navItems = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about' },
-  { label: 'Our Offering', href: '/offering' },
+  { label: 'Career', href: '/career' },
   { label: 'News', href: '/news' },
 ];
 
@@ -27,8 +28,8 @@ export const heroContent = {
   title: 'BATU AMPAR',
   secondaryTitle: 'CONTAINER TERMINAL',
   subtitle: 'Modernizing Batu Ampar Container terminal',
-  description: `In line with BP Batam's overall vision and the aspirations of PT Pelindo, Batu Ampar Port will begin implementing advanced operational processes and procedures effective 15 December 2025.`,
-  additionalInfo: `This marks a new phase for Batu Ampar – a structured and forward-looking step to strengthen governance, improve operational consistency, and position the terminal for sustainable growth.`,
+  description: `In line with BP Batam’s national vision and the appointment of PT Batam Terminal Petikemas (BTP) as the sole container terminal operator, Batu Ampar Port will implement enhanced operational processes and procedures, effective 15 December 2025.`,
+  additionalInfo: `This marks a new era for Batu Ampar a structured, forward-looking transition to strengthen governance, improve operational consistency, and support long-term capacity growth for Batam.`,
 };
 
 export const aboutContent = {
